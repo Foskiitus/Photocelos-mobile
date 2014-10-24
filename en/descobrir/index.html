@@ -1,0 +1,120 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	
+    <meta charset="utf-8" />
+    
+    <!-- [portable options] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+        
+    <!-- [SEO] -->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Foskiitus" /> 
+        
+    <title>Discover Barcelos | PhotoCelos</title>
+        
+    <!-- [loading stylesheets] -->    
+    <link type="text/css" rel="stylesheet" href="../../css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../css/flexslider.css" />         
+    <!-- [loading fonts] -->     
+            
+    <!-- [loading scripts] -->   
+		
+    <script type="text/javascript" src="../../js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="../../js/main.js"></script>
+    <script type="text/javascript" src="../../js/jquery.flexslider-min.js"></script>
+        
+    <script type="text/javascript">
+			var $ = jQuery.noConflict();
+			$(window).load(function() {
+				$('#slider').flexslider({
+					animation: "slide",
+					directionNav: false,
+					animationLoop: false,
+					controlNav: false, 
+					slideToStart: 1,
+					slideshow: true,
+					animationDuration: 300,
+					start: function(){
+						 $('.slides li img').show(); 
+						 $('.slides li').css("margin-bottom","-6px");
+					},
+				});
+			});
+	</script>
+        
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+    <body>
+
+    	<section id="page" style="background: #f4f4f4">
+                	
+        	<section id="header">
+            
+            	
+            	<div id="header-left">
+                	<a href="../index.html" id="header-back-link"><img src="../../img/icons/white/arrow-left.png" alt="Back" /><span>Back</span></a>
+                </div>
+                
+            	<div id="header-title">
+                	<h1>Discover Barcelos</h1>
+                </div>
+                
+            	<div id="header-right">
+					<a href="#" id="header-search-link"><img src="../../img/icons/share.png" alt="Search" /></a>
+                </div>
+                
+            </section> <!-- #header -->
+            
+            <nav id="menu" style="margin-top:45px;">
+            	<ul>
+					<a href="./chegar/index.html" title="Getting there">
+                    	<li class="">
+                    		<img class="menu-li-icon" src="../../img/icons/white/map.png" alt="" />
+                        	<span class="menu-li-title">Getting there</span>
+                            <img class="menu-li-arrow" src="../../img/icons/white/arrow-right.png" alt="Getting there" />
+                        </li>
+                    </a>
+                    
+                    <a href="./historia/index.html" title="History of the Municipality">
+                    	<li class="a">
+                    		<img class="menu-li-icon" src="../../img/icons/black/list3.png" alt="History of the Municipality" />
+                        	<span class="menu-li-title">History of the Municipality</span>
+                            <img class="menu-li-arrow" src="../../img/icons/black/arrow-right.png" alt="History of the Municipality" />
+                        </li>
+                    </a>
+                    
+                    <a href="./descricao/index.html" title="Description">
+                    	<li class="">
+                    		<img class="menu-li-icon" src="../../img/icons/white/list2.png" alt="Description" />
+                        	<span class="menu-li-title">Description</span>
+                            <img class="menu-li-arrow" src="../../img/icons/white/arrow-right.png" alt="Description" />
+                        </li>
+                    </a>
+                    
+                    <a href="./localizacao/index.html" title="Location">
+                    	<li class="a">
+                    		<img class="menu-li-icon" src="../../img/icons/black/pin.png" alt="Location" />
+                        	<span class="menu-li-title">Location</span>
+                            <img class="menu-li-arrow" src="../../img/icons/black/arrow-right.png" alt="Location" />
+                        </li>
+                    </a>
+                    
+                </ul>
+            </nav> <!-- #menu -->
+            
+            <section id="footer">
+            	<div id="footer-left">
+                	<span>&copy; Copyright 2014</span>
+                </div>
+                
+                <div id="footer-right">
+                	<span>PhotoCelos Mobile</span>
+                </div>    
+            </section> <!-- #footer -->
+            
+    	</section> <!-- #page -->
+    </body>
+</html>

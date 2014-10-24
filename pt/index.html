@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	
+    <meta charset="utf-8" />
+    
+    <!-- [portable options] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+        
+    <!-- [SEO] -->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Foskiitus" /> 
+        
+    <title>Inicio | PhotoCelos</title>
+            
+    <!-- [loading stylesheets] -->    
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../css/flexslider.css" />         
+    <!-- [loading fonts] -->     
+            
+    <!-- [loading scripts] -->   
+		
+    <script type="text/javascript" src="../js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+        
+    <script type="text/javascript">
+			var $ = jQuery.noConflict();
+			$(window).load(function() {
+				$('#slider').flexslider({
+					animation: "slide",
+					directionNav: false,
+					animationLoop: false,
+					controlNav: false, 
+					slideToStart: 1,
+					slideshow: true,
+					animationDuration: 300,
+					start: function(){
+						 $('.slides li img').show(); 
+						 $('.slides li').css("margin-bottom","-6px");
+					},
+				});
+			});
+	</script>
+        
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+    <body>
+
+    	<section id="page" style="background: #f4f4f4">
+                	
+        	<section id="header">
+            
+            	<div id="header-left">
+                	
+                </div>
+                
+            	<div id="header-title">
+                	<h1>PhotoCelos</h1>
+                </div>
+                
+            	<div id="header-right">
+					<a href="#" id="header-search-link"><img src="../img/icons/share.png" alt="Search" /></a>
+                </div>
+                
+            </section> <!-- #header --> 
+            
+        	<section id="content">
+                
+				<img class="fullwidth" src="../img/igrejas-capelas/barcelos/barcelos.jpg" alt="Barcelos" />
+				<nav id="menu" style="margin-top:-35px;">
+	            	<ul>
+						<a href="./descobrir/index.html" title="Descobrir Barcelos">
+	                    	<li class="">
+	                        	<img class="menu-li-icon" src="../img/icons/white/search.png" alt="Descobrir Barcelos" />
+	                            <span class="menu-li-title">Descobrir Barcelos</span>
+	                            <img class="menu-li-arrow" src="../img/icons/white/arrow-right.png" alt="Abade de Neiva" />
+	                        </li>
+	                    </a>
+	                    
+	                    <a href="freguesias.html" title="O que visitar">
+	                    	<li class="a">
+	                        	<img class="menu-li-icon" src="../img/icons/black/pin.png" alt="O que visitar" />
+	                            <span class="menu-li-title">O que visitar</span>
+	                            <img class="menu-li-arrow" src="../img/icons/black/arrow-right.png" alt="O que visitar" />
+	                        </li>
+	                    </a>
+	                    
+	                    <!-- <a href="" title="O que fazer">
+	                    	<li class="#">
+	                        	<img class="menu-li-icon" src="../img/icons/white/note.png" alt="O que fazer" />
+	                            <span class="menu-li-title">O que fazer</span>
+	                            <img class="menu-li-arrow" src="../img/icons/white/arrow-right.png" alt="O que fazer" />
+	                        </li>
+	                    </a>
+	                    
+	                    <a href="#" title="Onde Comer">
+	                    	<li class="a">
+	                        	<img class="menu-li-icon" src="../img/icons/black/icon.png" alt="Onde Comer" />
+	                            <span class="menu-li-title">Onde Comer</span>
+	                            <img class="menu-li-arrow" src="../img/icons/black/arrow-right.png" alt="Onde Comer" />
+	                        </li>
+	                    </a>-->
+	                    
+	                    <a href="./informacoes/index.html" title="Informações Úteis">
+	                    	<li class="">
+	                        	<img class="menu-li-icon" src="../img/icons/white/warning.png" alt="Informações Úteis" />
+	                            <span class="menu-li-title">Informações Úteis</span>
+	                            <img class="menu-li-arrow" src="../img/icons/white/arrow-right.png" alt="Informações Úteis" />
+	                       </li>
+	                    </a>
+	                </ul>
+	            </nav> <!-- #menu -->
+            </section> <!-- #content -->
+            
+            <section id="footer">
+            	<div id="footer-left">
+                	<span>&copy; Copyright 2014</span>
+                </div>
+                
+                <div id="footer-right">
+                	<span>PhotoCelos Mobile</span>
+                </div>    
+            </section> <!-- #footer -->
+            
+    	</section> <!-- #page -->
+    </body>
+</html>
