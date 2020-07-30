@@ -1,0 +1,10 @@
+{
+    "name": "Adamastor",
+    "host": "192.168.31.10",
+    "protocol": "sftp",
+    "port": 22,
+    "username": "rlopes",
+    "password": "Foskiitus.93",
+    "remotePath": "/var/customers/webs/rlopes2/mobile.photocelos.pt/",
+    "uploadOnSave": true
+}
