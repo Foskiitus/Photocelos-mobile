@@ -52,7 +52,7 @@
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: white;
+  background-color: #ffffff;
   cursor: pointer;
 }
 
@@ -64,7 +64,7 @@
 /* Add a dark background color to the active button */
 .btn.active {
   background-color: #666;
-   color: white;
+   color: #ffffff;
 }
 
 
